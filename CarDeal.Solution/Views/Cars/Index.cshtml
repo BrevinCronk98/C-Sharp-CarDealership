@@ -1,0 +1,21 @@
+@using Dealership.Models;
+@using System.Collections.Generic;
+<h1>Brevin and Steven Car Dealership!</h1>
+
+
+<ul>
+
+
+  @foreach (Cars car in Model)
+  {
+    <li>Make: @car.MakeModel</li>
+    <li>Price: @car.Price</li>
+    <li>Miles: @car.Miles</li>
+    <li>Message: @car.Message</li>
+  }
+</ul>
+<form action="/cars/delete" method="post">
+  <button type="submit" name="button">Clear All Items</button>
+</form>
+<!-- <button onclick='window.location = "/cars/delete"'>Clear List</button> -->
+<button onclick='window.location = "/"'>Go Home</button>

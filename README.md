@@ -7,7 +7,7 @@
 
 ### Description
 
-_The purpose of this project is to create a C# web application using the .NET Core framework.
+_The purpose of this project is to create a C# web application using the .NET Core framework._
 
 ### Instructions for use:
 
